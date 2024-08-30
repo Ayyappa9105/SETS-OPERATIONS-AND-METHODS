@@ -1,0 +1,56 @@
+s1={7,45,18,10,93}
+s2={31,7,33,18,17}
+print("METHODS")
+print("\n \n")
+print("add()")
+s1.add(42)
+print(s1)
+print("\n")
+print("clear()")
+s2.clear()
+print(s2)
+print("\n")
+print("discard()")
+s1.discard(10)
+print(s1)
+print("\n")
+s1={7,45,18,10,93}
+s2={31,7,33,18,17}
+print("remove()")
+s2.remove(7)
+print(s2)
+print("\n")
+print("pop()")
+s1.pop()
+print(s1)
+print("\n")
+print("SOME OTHER METHODS ARE SIMILAR TO THE OPERATIONS LIKE union(),intersection(),difference()")
+
+#OUTPUT
+METHODS
+
+ 
+
+add()
+{18, 93, 42, 7, 10, 45}
+
+
+clear()
+set()
+
+
+discard()
+{18, 93, 42, 7, 45}
+
+
+remove()
+{33, 17, 18, 31}
+
+
+pop()
+{93, 7, 10, 45}
+
+
+SOME OTHER METHODS ARE SIMILAR TO THE OPERATIONS LIKE union(),intersection(),difference()
+
+=== Code Execution Successful ===
