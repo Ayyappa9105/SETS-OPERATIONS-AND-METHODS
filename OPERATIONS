@@ -1,0 +1,36 @@
+s1={7,45,18,10,93}
+s2={31,7,33,18,17}
+print("OPERATIONS")
+print("\n \n")
+print("UNION")
+print(s1|s2)
+print("\n")
+print("INTERSECTION")
+print(s1&s2)
+print("\n")
+print("DIFFERENCE")
+print(s1-s2)
+print("\n")
+print("SET SYMMETRIC DIFFERENCE")
+print(s1^s2)
+
+#OUTPUT
+
+OPERATIONS
+
+UNION
+{33, 7, 10, 45, 17, 18, 93, 31}
+
+
+INTERSECTION
+{18, 7}
+
+
+DIFFERENCE
+{10, 45, 93}
+
+
+SET SYMMETRIC DIFFERENCE
+{33, 17, 45, 10, 93, 31}
+
+=== Code Execution Successful ===
